@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             binding.calSum.text = SUM.toString()
             if (SUM < 1000) {
                 //Gランクと表示する
-
+                binding.Rank.text = "Gランク"
             }
         }
 
